@@ -1,0 +1,20 @@
+name: "MobileTowers"
+version: "1.20.2"
+main: me.dotto.mobiletowers.MobileTowers
+api-version: "1.20"
+author: "DottoXD"
+depend: [PlaceholderAPI, Vault]
+description: "Mobile towers plugin."
+commands:
+  addtower:
+    description: "Adds a tower to the database."
+    usage: /<command>
+    permission: mobiletowers.addtower
+  tower:
+    description: "Shows your current tower."
+    usage: /<command>
+    permission: mobiletowers.tower
+  towers:
+    description: "Shows all near towers."
+    usage: /<command>
+    permission: mobiletowers.towers

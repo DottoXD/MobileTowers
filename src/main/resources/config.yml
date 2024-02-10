@@ -1,0 +1,19 @@
+database:
+  host: 127.0.0.1
+  port: 3306
+  username: mysql
+  password: mystrongpassword
+  database: mobiletowers
+tower:
+  forcechange: true
+scoreboosts:
+  2g: 5
+  3g: 10
+  4g: 25
+  5g: 225
+ranges:
+  2g: 1000
+  3g: 850
+  4g: 750
+  5g: 600
+  invalid: 10
